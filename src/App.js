@@ -10,7 +10,11 @@ export default function App() {
     <div className="App">
       <h1>Welcome to your first mini challenge!</h1>
 
-      <PokeCard name={mockPokemonData.name} sprites={mockPokemonData.sprites} />
+      <PokeCard
+        name={mockPokemonData.name}
+        sprites={mockPokemonData.sprites}
+        video={mockPokemonData.video}
+      />
     </div>
   );
 }

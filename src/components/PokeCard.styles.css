@@ -1,0 +1,13 @@
+.card {
+  border-radius: 10px;
+  background-color: rgba(255, 99, 71, 0.8);
+}
+
+.pokeName {
+  color: white;
+  font-weight: bold;
+}
+
+.pokeName {
+  text-transform: capitalize;
+}
